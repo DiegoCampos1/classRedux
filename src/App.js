@@ -1,16 +1,19 @@
 import React from 'react';
+import Player from './components/Player';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ display: 'flex', placeContent: 'center' }}>
+      <Player />
+      <Sidebar />
     </div>
   );
 }
 
 export default App;
 
-//TODO: Criar componente SideBar;
-//TODO: Criar componente Player;
+
 //TODO: Compartilhar informações entre o Sidebar e Player;
 //TODO: Criar arquivo para isolar os dados da aplicação;
 //TODO: Add redux (npm i --save redux react-redux);
