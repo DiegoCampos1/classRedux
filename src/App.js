@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
 
 export default App;
+
+//TODO: Criar componente SideBar;
+//TODO: Criar componente Player;
+//TODO: Compartilhar informações entre o Sidebar e Player;
+//TODO: Criar arquivo para isolar os dados da aplicação;
+//TODO: Add redux (npm i --save redux react-redux);
+//TODO: Criar uma Store;
+//TODO: Importar a Store no App.js e criar um Provider;
+//TODO: Criar a action - src/actions/movieAction.js - selectMovie;
+//TODO: Criar um reducer - src/reducers/movieReducer.js - movieReducer;
+//TODO: Criar o combineReducers - src/reducers/index.js;
+//TODO: Inserir como parâmetro da createStore(rootReducer) nossos Reducers;
+//TODO: Conectar o Redux ao componente SideBar, através do connect(mapStateToProps, mapDispatchToProps);
+//TODO: Conectar o Redux ao componente Player, através do connect(mapStateToProps, null).
